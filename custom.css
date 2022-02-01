@@ -1,7 +1,14 @@
-.container {
-	max-width: 800px;
+
+
+.navbar {
+	padding-top: initial;
+	background-color: #9ec5fe;
 }
 
-.navbar-expand-md .navbar-nav .nav-link {
+.navbar-nav {
+	padding: 2rem;
+}
+
+.navbar-expand-md .nav-link {
 	padding-right: initial;
 }
