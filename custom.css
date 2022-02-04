@@ -18,3 +18,7 @@
 	margin-bottom: 1rem;
 	margin-top: 1rem;
 }
+
+.safemail:after {
+	content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
+}
