@@ -22,3 +22,7 @@
 .safemail:after {
 	content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
 }
+
+.safephone:after {
+	content: attr(data-number);
+}
